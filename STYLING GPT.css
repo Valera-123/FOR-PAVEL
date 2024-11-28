@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe Print', serif; /* Use Segoe Print where available */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    color: blue;
+    margin-bottom: 20px;
+  }
+  
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forgot-password a {
+    display: block;
+    margin-top: 5px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .remember-me {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .remember-me input[type="checkbox"] {
+      margin-right: 5px;
+      transform: scale(1.5); /* Make checkbox larger */
+  }
+  
+  .button-group button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .logo {
+      margin-top: 20px;
+  }
+  
+  .logo img {
+      max-width: 200px;
+  }

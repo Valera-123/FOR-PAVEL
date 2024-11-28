@@ -1,0 +1,187 @@
+body  {
+   font-family:Segoe Print; 
+   background-color:rgb(203, 228, 238) ;
+}
+
+.entry {
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    font-size: 154px;
+    color:rgb(0, 45, 191) ;
+}
+
+.label11 {
+    font-size: 90px;
+    color: black;
+    position: absolute;
+    top: 28%;
+    left: 18%;
+
+}
+
+.input1 {
+    position: absolute;
+    top: 32%;
+    left: 37%;
+    width: 470px;
+    height: 100px;
+    border-color: grey;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Segoe Print; 
+    color: grey;
+
+}
+
+.label22 {
+    font-size: 90px;
+    color: black;
+    position: absolute;
+    top: 51%;
+    left: 16%;
+}
+
+.input2 {
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    width: 470px;
+    height: 100px;
+    border-color: grey;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Segoe Print; 
+    color: grey;
+
+}
+
+.forpass {
+    position: absolute;
+    top: 63%;
+    left: 37%;
+    width: 470px;
+    height: 100px;
+    border-color: grey;
+    border-radius: 50px;
+    font-family:Segoe Print; 
+    color: grey;
+    text-align: center;
+    font-size:40px ;
+}
+
+.label4 {
+    position: absolute;
+    bottom: 15%;
+    left: 38%;
+    font-family:Segoe Print; 
+    color: grey;
+    text-align: center;
+    font-size:50px ;
+    cursor: pointer
+}
+
+.check12 {
+    position: absolute;
+    font-size: 90px;
+    color: black;
+    top: 940px;
+    left: 850px;
+
+}
+
+.button {
+    background-color: blue;
+    color: black;
+    border-radius: 90px;
+    cursor: pointer;
+    font-size:80px;
+    font-family:Segoe Print;
+    position: absolute;
+    left: 37%;
+    top: 85%;
+    height: 150px;
+    width: 470px;
+}
+
+.button1 {
+    font-size:40px;
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+    height: 70px;
+    width: 70px;
+}
+
+.refka {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.micrologo {
+    top: 0%;
+    right: 0%;
+}
+
+.upmenu {
+    height: 9%;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgb(156, 225, 255);
+}
+
+.metro {
+    color: blue;
+}
+
+.railway {
+    color: orange;
+}
+
+.table {
+    line-height: 350%;
+    text-align: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+.JUSTIFY {
+    height: 15%;
+    width: 45%;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgb(156, 225, 255);
+    border-left: none;
+    border-right: none;
+}
+
+.timetable {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.jopa {
+    position: absolute;
+    top: 10%;
+    left: 0.5%;
+    font-size: 30px;
+    text-align: center;
+}
