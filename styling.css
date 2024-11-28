@@ -1,6 +1,6 @@
-body  {
-   font-family:Segoe Print; 
-   background-color:rgb(203, 228, 238) ;
+body {
+    font-family: Segoe Print;
+    background-color: rgb(203, 228, 238);
 }
 
 .entry {
@@ -8,7 +8,7 @@ body  {
     left: 40%;
     top: 0%;
     font-size: 154px;
-    color:rgb(0, 45, 191) ;
+    color: rgb(0, 45, 191);
 }
 
 .label11 {
@@ -30,7 +30,7 @@ body  {
     border-radius: 50px;
     text-align: center;
     font-size: 40px;
-    font-family:Segoe Print; 
+    font-family: Segoe Print;
     color: grey;
 
 }
@@ -53,7 +53,7 @@ body  {
     border-radius: 50px;
     text-align: center;
     font-size: 40px;
-    font-family:Segoe Print; 
+    font-family: Segoe Print;
     color: grey;
 
 }
@@ -66,20 +66,20 @@ body  {
     height: 100px;
     border-color: grey;
     border-radius: 50px;
-    font-family:Segoe Print; 
+    font-family: Segoe Print;
     color: grey;
     text-align: center;
-    font-size:40px ;
+    font-size: 40px;
 }
 
 .label4 {
     position: absolute;
     bottom: 15%;
     left: 38%;
-    font-family:Segoe Print; 
+    font-family: Segoe Print;
     color: grey;
     text-align: center;
-    font-size:50px ;
+    font-size: 50px;
     cursor: pointer
 }
 
@@ -97,8 +97,8 @@ body  {
     color: black;
     border-radius: 90px;
     cursor: pointer;
-    font-size:80px;
-    font-family:Segoe Print;
+    font-size: 80px;
+    font-family: Segoe Print;
     position: absolute;
     left: 37%;
     top: 85%;
@@ -107,7 +107,7 @@ body  {
 }
 
 .button1 {
-    font-size:40px;
+    font-size: 40px;
     position: absolute;
     bottom: 15%;
     left: 30%;
@@ -184,4 +184,41 @@ body  {
     left: 0.5%;
     font-size: 30px;
     text-align: center;
+}
+
+/* Jurnal by Pasha */
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(156, 225, 255);
+    border: 1px solid black;
+}
+
+.header-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    border-right: 1px solid black;
+}
+
+.metro-name {
+    color: blue;
+}
+
+.railway-name {
+    color: orange;
+}
+
+.nav {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
 }
